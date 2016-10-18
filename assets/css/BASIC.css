@@ -76,12 +76,10 @@
 .contentcontainer{
 	width: 1460px;
 	height: auto;
-	min-height: 500px;
 	border: 1px solid #dddddd;
 	background-image: url("~/../../../assets/images/maincontent.png");
 	overflow: auto;
 	font-family: "Arial", "Helvetic Neue", Helvetica, sans-serif;
-	color: #777777;
 }
 
 /*CHANITA NUANSRI ABOUT ME PAGE*/
@@ -95,7 +93,6 @@
 		height: auto;
 		background-color: #ffffff;
 		border: 1px solid #dddddd;
-		overflow: auto;
 	}
 		/*About Me Heading*/
 			.maincontentheading{
@@ -104,7 +101,7 @@
 				text-align: left;
 				margin: 30px;
 			}
-			/*Line Divide*/
+			
 			hr{
 				margin: 0px 30px 0px 30px;
 			}
@@ -123,68 +120,25 @@
 /*CHANITA NUANSRI ABOUT ME PAGE END*/
 
 /*PORTFOLIO PAGE*/
-	
-	/*Main Content*/
+
 	.maincontentborder{
 		margin: 30px;
 	}
-	
-		/*Left Column Images*/
-		.left-pic-container{
-			float: left;
-			margin-right: 20px;
-			margin-bottom: 40px;
-			
-		}
-		
-		/*Right Column Images*/
-		.right-pic-container{
-			float: left;
-			margin-left: 20px;
-			margin-bottom: 40px;
-		}
 
-		/*Picture Description*/
-			.picture-description{
-				width: 275px;
-				max-height: 60px;
-				background-color: #4aaaa5;
-				text-align: center;
-				color: white;
-				font-size: 20px;
-				padding-top: 20px;
-				padding-bottom: 20px;
-				margin-top: -60px;
-				position: relative;
-				z-index: 10;	
-			}
 
-		/*Images Position*/
-			.picture-control{
-				position: relative;
-				z-index: 1;
-			}
+
+
+
+
+
+
+
 /*PORTFOLIO PAGE END*/
 
 
 
 /*CONTACT ME PAGE*/
-
-/*Input Border*/
-	.textinput{
-		margin: 10px 0px 20px 0px;
-	}
-
 /*CONTACT ME PAGE END*/
-
-/*Thank You Page*/
-	/*Thank you tet style*/
-	.Thank-you-Message{
-		font-size: 30px;
-		color: #4aaaa5;
-
-	}
-/*Thank You Page End*/
 
 
 
@@ -192,7 +146,6 @@
 	.sidecontent{
 		float: right;
 		margin-top: 50px;
-		margin-bottom: 50px;
 		margin-right: 200px;
 		width: 270px;
 		height: auto;
