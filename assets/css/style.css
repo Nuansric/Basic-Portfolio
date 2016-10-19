@@ -30,47 +30,31 @@
 			padding-top: 30px;
 		}
 
-	/*Navigation Container*/
+		/*Navigation Container*/
 	.navigation{
 		width: 300px;
 		height: 100px;
 		margin-top: 50px;
 		margin-right: 200px;
 		float: right;
+			}
+
+	/*Psotion Navigation Tabs*/
+	#navcontrol{
+		margin: 0;
+		padding: 40px;
+		color: lightgrey;
+		word-spacing: 10px;
+	}
+	/*Change block to inline element*/
+	li{
+		display: inline;
 	}
 
-		/*Navigation Tab*/
-		#navigationborder{
-			padding-top: 45px;
-			padding-right: 50px;
-			padding-left: 50px;
-		}
-
-		#aboutnav{
-			border-right: thin solid ;
-			padding-right: 10px;
-			float: right;
-			color: lightgrey;	
-		}
-
-		#contactnav{
-			float: right;
-			padding-left: 10px;
-			padding-right: 10px;	
-		}
-
-		#portfolionav{
-			border-right: thin solid;
-			padding-right: 10px;
-			float: right;
-			padding-left: 10px;	
-			color: lightgrey;
-		}
-
-		a{
-			color: lightgrey; 
-			text-decoration: none;
-		}
+	a{
+		color: lightgrey; 
+		text-decoration: none;
+	}
 	
 /*Content Section*/
 .contentcontainer{
